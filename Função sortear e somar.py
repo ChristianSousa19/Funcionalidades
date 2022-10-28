@@ -14,7 +14,7 @@ def somapar(lista):
     for  valor in lista:
         if valor%2==0:
             soma+=valor
-    print(f"Somando os valores pares de {lista} temos {lista}")
+    print(f"Somando os valores pares de {lista} temos {soma}")
 
 numeros=list()
 sorteia(numeros)
